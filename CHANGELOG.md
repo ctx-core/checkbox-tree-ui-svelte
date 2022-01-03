@@ -1,5 +1,11 @@
 # @ctx-core/checkbox-tree-ui-svelte
 
+## 0.1.2
+
+### Patch Changes
+
+- fix: type exports
+
 ## 0.1.1
 
 ### Patch Changes
