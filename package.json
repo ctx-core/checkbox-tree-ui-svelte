@@ -43,7 +43,7 @@
 		"c8": "^7.11.3",
 		"check-dts": "^0.6.7",
 		"svelte": "^3.48.0",
-		"svelte-preprocess": "^4.10.6",
+		"svelte-preprocess": "^4.10.7",
 		"svelte2tsx": "^0.5.10",
 		"tslib": "^2.4.0",
 		"tsm": "^2.2.1",
