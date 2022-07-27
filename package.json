@@ -44,7 +44,7 @@
 		"check-dts": "^0.6.7",
 		"svelte": "^3.49.0",
 		"svelte-preprocess": "^4.10.7",
-		"svelte2tsx": "^0.5.12",
+		"svelte2tsx": "^0.5.13",
 		"tslib": "^2.4.0",
 		"tsx": "^3.8.0",
 		"typescript": "next",
