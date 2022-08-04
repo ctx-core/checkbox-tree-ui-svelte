@@ -1,8 +1,8 @@
 <script>
 import { createEventDispatcher } from 'svelte'
 import { clone } from '@ctx-core/object'
-import Checkbox_Tree_Knob from './Checkbox_Tree_Knob.svelte'
-import Checkbox_Tree_Input from './Checkbox_Tree_Input.svelte'
+import Checkbox_Tree_Knob from '../Checkbox_Tree_Knob/index.svelte'
+import Checkbox_Tree_Input from '../Checkbox_Tree_Input/index.svelte'
 const dispatch = createEventDispatcher()
 export let id = ''
 export let title = ''
@@ -15,7 +15,7 @@ $: {
 	if (children) {
 		let has_true
 		let has_false
-		for (const child_key of child_key_a||[]) {
+		for (const child_key of child_key_a || []) {
 			const child = children[child_key]
 			has_true = has_true || !!child
 			has_false = has_false || !child
@@ -42,7 +42,7 @@ function onchange_input(event) {
 		expanded = true
 	}
 	if (i_children && child_key_a) {
-		for	(const child_key of child_key_a||[]) {
+		for (const child_key of child_key_a || []) {
 			i_children[child_key] = checked
 		}
 		indeterminate = false
