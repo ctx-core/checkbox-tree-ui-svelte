@@ -46,7 +46,7 @@
 		"svelte-preprocess": "^5.0.0",
 		"svelte2tsx": "^0.6.0",
 		"tslib": "^2.4.1",
-		"tsx": "^3.12.1",
+		"tsx": "^3.12.2",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
