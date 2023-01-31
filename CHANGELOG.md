@@ -1,5 +1,13 @@
 # @ctx-core/checkbox-tree-ui-svelte
 
+## 0.1.65
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/svelte@13.4.20
+
 ## 0.1.64
 
 ### Patch Changes
