@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/checkbox-tree-ui-svelte",
-	"version": "0.1.113",
+	"version": "0.1.126",
 	"description": "ctx-core checkbox tree component support library",
 	"keywords": [
 		"ctx-core",
