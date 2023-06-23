@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/checkbox-tree-ui-svelte",
-	"version": "0.1.158",
+	"version": "0.1.159",
 	"description": "ctx-core checkbox tree component support library",
 	"keywords": [
 		"ctx-core",
@@ -35,8 +35,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/svelte": "^14.1.10",
-		"svelte": "^3.59.2"
+		"@ctx-core/svelte": "^14.1.11",
+		"svelte": "^4.0.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
