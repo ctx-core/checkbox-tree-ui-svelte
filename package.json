@@ -36,7 +36,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/svelte": "^14.1.14",
-		"svelte": "^4.0.5"
+		"svelte": "^4.1.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
