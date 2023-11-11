@@ -1,5 +1,5 @@
-import type { SvelteComponentTyped } from 'svelte'
-declare const Checkbox_Tree_Node:SvelteComponentTyped<{
+import type { SvelteComponent } from 'svelte'
+declare const Checkbox_Tree_Node:SvelteComponent<{
 	id?:string
 	title?:string
 	checked?:boolean|null

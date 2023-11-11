@@ -3,7 +3,7 @@ export let expanded = false
 </script>
 
 <a
-	href="."
+	href=""
 	class="Checkbox_Tree_Knob"
 	on:click
 >

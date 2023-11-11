@@ -1,8 +1,8 @@
 <script>
 import { createEventDispatcher } from 'svelte'
 import { clone } from '@ctx-core/object'
-import Checkbox_Tree_Knob from '../Checkbox_Tree_Knob/index.svelte'
-import Checkbox_Tree_Input from '../Checkbox_Tree_Input/index.svelte'
+import Checkbox_Tree_Knob from '../Checkbox_Tree_Knob/index.js'
+import Checkbox_Tree_Input from '../Checkbox_Tree_Input/index.js'
 const dispatch = createEventDispatcher()
 export let id = ''
 export let title = ''
