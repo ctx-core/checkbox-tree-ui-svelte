@@ -1,5 +1,14 @@
 # @ctx-core/checkbox-tree-ui-svelte
 
+## 0.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/object@30.1.2
+  - @ctx-core/svelte@14.2.2
+
 ## 0.2.1
 
 ### Patch Changes

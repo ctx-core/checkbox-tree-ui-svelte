@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/checkbox-tree-ui-svelte",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "ctx-core checkbox tree component support library",
 	"keywords": [
 		"ctx-core",
@@ -21,6 +21,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./Checkbox_Tree",
 		"./Checkbox_Tree_Input",
 		"./Checkbox_Tree_Knob",
@@ -41,8 +42,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^30.1.1",
-		"@ctx-core/svelte": "^14.2.1",
+		"@ctx-core/object": "^30.1.2",
+		"@ctx-core/svelte": "^14.2.2",
 		"svelte": "^4.2.3"
 	},
 	"devDependencies": {
