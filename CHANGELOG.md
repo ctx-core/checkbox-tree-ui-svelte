@@ -1,5 +1,16 @@
 # @ctx-core/checkbox-tree-ui-svelte
 
+## 0.2.10
+
+### Patch Changes
+
+- @ctx-core/object: ^30.4.1 -> ^30.4.2
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svelte@14.2.10
+
 ## 0.2.9
 
 ### Patch Changes
