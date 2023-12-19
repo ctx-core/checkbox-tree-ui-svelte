@@ -1,6 +1,5 @@
 <script>
 import { createEventDispatcher } from 'svelte'
-import { clone } from '@ctx-core/object'
 import Checkbox_Tree_Knob from '../Checkbox_Tree_Knob/index.js'
 import Checkbox_Tree_Input from '../Checkbox_Tree_Input/index.js'
 const dispatch = createEventDispatcher()
@@ -37,7 +36,7 @@ function onclick_knob(event) {
 function onchange_input(event) {
 	const { target } = event
 	const { checked } = target
-	const i_children = clone(children)
+	const i_children = { ...children }
 	if (checked) {
 		expanded = true
 	}
