@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/checkbox-tree-ui-svelte",
-	"version": "0.2.164",
+	"version": "0.2.165",
 	"description": "ctx-core checkbox tree component support library",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,11 @@
 		"url": "https://github.com/ctx-core/checkbox-tree-ui-svelte.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-checkbox-tree-ui-svelte@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -44,7 +48,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/svelte": "^16.0.108",
+		"@ctx-core/svelte": "^16.0.109",
 		"svelte": "^4.2.12"
 	},
 	"devDependencies": {
