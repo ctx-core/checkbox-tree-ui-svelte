@@ -1,5 +1,13 @@
 # @ctx-core/checkbox-tree-ui-svelte
 
+## 0.2.235
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - @ctx-core/svelte@16.0.164
+
 ## 0.2.234
 
 ### Patch Changes
